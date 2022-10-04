@@ -3,7 +3,6 @@ body{
     justify-content: center;
 }
 form{
-    background-color: antiquewhite;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -14,9 +13,15 @@ form  > *{
 
 input[type="submit"]{
     padding: 5px 50px;
+    width: 100%;
+    background-color: aqua;
 }
 
 p::after{
     content: "*";
     color: red;
+}
+input[type="submit"]:hover{
+   color: white;
+    background-color: black;
 }
