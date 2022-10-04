@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form  > *{
+    margin: 10px 0;
+}
+
+input[type="submit"]{
+    padding: 5px 50px;
+}
+
+p::after{
+    content: "*";
+    color: red;
+}
